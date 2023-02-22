@@ -10,6 +10,40 @@ body {
   padding-bottom: 150px;
 }
 
-.select-post {
-  padding-bottom: 200px;
+.para p {
+  padding-bottom: 1rem;
+}
+
+.carousal {
+  display: flex;
+  overflow: hidden;
+}
+
+.carousal img {
+  margin-left: 0.5rem;
+}
+
+.carousal img:first-child {
+  margin-left: 0%;
+}
+
+.img-area {
+  position: relative;
+  max-width: 1200px;
+}
+
+.navigator-btn {
+  position: absolute;
+  background-color: black;
+  color: #fff;
+  border-radius: 50%;
+  text-align: center;
+}
+.pre {
+  left: 0;
+  top: 45%;
+}
+.next {
+  right: -2px;
+  top: 45%;
 }
