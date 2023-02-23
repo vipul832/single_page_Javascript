@@ -6,6 +6,13 @@ body {
   background-color: #f6f8f8;
 }
 
+.web-heading1 {
+  font-size: 7.3rem;
+  font-weight: 700;
+  letter-spacing: -5px;
+  line-height: 6.9rem;
+}
+
 .select-work {
   padding-bottom: 150px;
 }
@@ -15,35 +22,39 @@ body {
 }
 
 .carousal {
-  display: flex;
+  max-width: 750px;
+  position: relative;
   overflow: hidden;
 }
 
-.carousal img {
-  margin-left: 0.5rem;
-}
-
-.carousal img:first-child {
-  margin-left: 0%;
-}
-
-.img-area {
-  position: relative;
-  max-width: 1200px;
+.carousal-slider {
+  display: flex;
 }
 
 .navigator-btn {
   position: absolute;
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.568);
   color: #fff;
-  border-radius: 50%;
   text-align: center;
+  border-radius: 50%;
+  font-size: 1.5rem;
+}
+.pre,
+.next {
+  top: 40%;
 }
 .pre {
   left: 0;
-  top: 45%;
 }
 .next {
-  right: -2px;
-  top: 45%;
+  right: 0;
+}
+
+@media only screen and (max-width: 800px) {
+  .web-heading1 {
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: -0;
+    line-height: 1rem;
+  }
 }

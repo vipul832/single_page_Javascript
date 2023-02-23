@@ -25,7 +25,7 @@
     <link rel="stylesheet" href="./stylesheet.css" />
   </head>
   <body style="min-height: 300vh">
-    <div class="container">
+    <div class="container px-md-2">
       <!--Nav bar-->
       <header>
         <nav class="navbar navbar-expand-lg p-0">
@@ -55,7 +55,7 @@
                   <a class="nav-link py-4 active nav-tags" aria-current="page" href="#" id="home-btn">Home</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link py-4 nav-tags" href="#" id="about-btn">About us</a>
+                  <a class="nav-link py-4 nav-tags" href="#" id="about-btn">About</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link py-4 nav-tags" href="#" id="images-btn">Images</a>
@@ -75,39 +75,35 @@
       <!--Section Heading-->
       <div class="section1 pb-5">
         <div class="row mt-3">
-          <h1
-            class=""
-            style="
-              font-size: 7.3rem;
-              font-weight: 700;
-              letter-spacing: -5px;
-              line-height: 6.9rem;
-            "
-          >
-            <div>Designer &</div>
-            <div>Product Strategist</div>
-          </h1>
+          <div class="col-xs-12 col-sm-10 col-md-12 col-lg-12">
+            <h1
+              class="main-heading web-heading1"
+            >
+              <p>Designer & </p>
+              <p >Product Strategist</p>
+            </h1>
+          </div>
         </div>
 
         <!--Section Text-->
         <div class="intro-text row">
-          <div class="col-lg-6 my-5">
+          <div class="col-lg-7 my-lg-5">
             <p class="fs-3">
               I bring a founder’s mentality to designing products, experiences,
               brands, and teams.
             </p>
           </div>
 
-          <div class="row">
-            <div class="col col-lg-2"></div>
-            <div class="col col-lg-4 col-sm-12 mb-lg-5">
+          <div class="row mt-sm-5 mt-lg-0">
+            <div class="col-lg-2"></div>
+            <div class="col-lg-4 col-md-12 mb-lg-5 ">
               <p>
                 I've spent over a decade working with teams to ship products
                 that delight users and advance organizations’ goals.
                 <a href="https://www.turnwall.com/about/">Learn More</a>
               </p>
             </div>
-            <div class="col col-lg-4 mb-lg-5">
+            <div class="col-lg-4 col-md-12 mb-lg-5">
               <p>
                 Staff UX Design Lead @Verily. Previously Head of Design
                 <a href="https://www.turnwall.com/work/admithub/">@Admithub</a>,
@@ -141,16 +137,14 @@
           <!--content 1-->
           <a href="#" class="text-decoration-none text-dark">
             <div class="row">
-              <div class="col me-5">
+              <div class="col-md-5 col-sm-12 me-md-5">
                 <img
-                  class="rounded-2"
+                  class="rounded-2 img-fluid"
                   src="https://www.turnwall.com/wp-content/uploads/2021/05/hero-e1627578686659-750x584.png.webp"
                   alt=""
-                  width="600px"
-                  height="350px"
                 />
               </div>
-              <div class="col pt-5">
+              <div class="col-md-5  pt-5">
                 <span>
                   <span>CASE STUDY</span>
                   <h3>AdminHub AI Suite</h3>
@@ -167,16 +161,16 @@
           <!--content 2-->
           <a href="#" class="text-decoration-none text-dark">
             <div class="row">
-              <div class="col me-5">
+              <div class="col-md-5 col-sm-12 me-md-5">
                 <img
-                  class="rounded-2"
+                  class="rounded-2 img-fluid"
                   src="https://www.turnwall.com/wp-content/uploads/2021/04/brewery-hero-714x600.png.webp"
                   alt=""
                   width="600px"
                   height="350px"
                 />
               </div>
-              <div class="col pt-5">
+              <div class="col-md-5 pt-5">
                 <span>
                   <span>CASE STUDY</span>
                   <h3>Connected Proof</h3>
@@ -193,16 +187,16 @@
           <!--content 3-->
           <a href="#" class="text-decoration-none text-dark">
             <div class="row">
-              <div class="col me-5">
+              <div class="col-md-5 col-sm-12 me-md-5">
                 <img
-                  class="rounded-2"
+                  class="rounded-2 img-fluid"
                   src="https://www.turnwall.com/wp-content/uploads/2019/04/bs-hero-750x387.png"
                   alt=""
                   width="600px"
                   height="350px"
                 />
               </div>
-              <div class="col pt-5">
+              <div class="col-md-5 pt-5">
                 <span>
                   <span>CASE STUDY</span>
                   <h3></h3>
@@ -329,30 +323,34 @@
         </div>
         <hr class="border-4 border-dark opacity-100 mt-2 mb-4" />
         <!--Images area-->
-        <div class="web-images select-work">
+        <div class="web-images select-work" id="image">
 
-          <h1 class="mb-4"" style="font-size:5.63rem;font-weight: 700;">Image Gallery</h1>
+          <h2 class="main-heading mb-4 " style="font-size:5.63rem;font-weight: 700;">Image Gallery</h2>
           <p style="font-size:1.5rem;" class="mb-5">Visual snapshots of past projects and side-hustles</p>
           
-          <div class="img-area shadow-lg">
-            <button class="navigator-btn pre  border-0"><</button> 
-            <button class="navigator-btn next border-0">></button> 
-            <div class="carousal align-items-center">
-              <img src="https://www.turnwall.com/wp-content/uploads/2019/02/bs-overview-hero-750x387.png" alt="" class="img-fluid slid-img">
-              <img src="https://www.turnwall.com/wp-content/uploads/2019/02/bs-overview-hero-750x387.png" alt="" class="img-fluid slid-img">
-              <img src="https://www.turnwall.com/wp-content/uploads/2019/02/bs-overview-hero-750x387.png" alt="" class="img-fluid slid-img">
-              <img src="https://www.turnwall.com/wp-content/uploads/2019/02/bs-overview-hero-750x387.png" alt="" class="img-fluid slid-img">
-            </div>
+          <div class="row justify-content-center ">
+            <div class="carousal p-0 shadow-lg">
+               
+                <div class="carousal-slider">
+                  <img src="https://www.turnwall.com/wp-content/uploads/2019/02/bs-overview-hero-750x387.png" alt="" class="current-img img-fluid">
+                  <img src="https://www.turnwall.com/wp-content/uploads/2013/07/Screen-Shot-2013-07-18-at-6.57.06-PM-750x415.png" alt="" class=" img-fluid">
+                  <img src="https://www.turnwall.com/wp-content/uploads/2013/07/1-3device_0-750x528.jpg" alt="" class=" img-fluid">
+                  <img src="https://www.turnwall.com/wp-content/uploads/2013/07/acadia-shirt-750x528.jpg" alt="" class="img-fluid">
+                  <!-- <img src="" alt="" class=""> -->
+                </div>
+                <button class="navigator-btn pre border-0 "><</button> 
+                <button class="navigator-btn next border-0 ">></button> 
+              </div>
           </div>
 
         </div>
         
         <hr class="border-4 border-dark opacity-100 mt-2 mb-4" />
       <!--service-->
-      <div class="select-work web-service" id="services">
+      <div class="select-work web-service " id="services">
         <div class="row">
           <div class="col-lg-12 mb-5">
-            <h2  style="font-size:5.63rem;font-weight: 700;" >Services</h2>
+            <h2 class="main-heading"  style="font-size:5.63rem;font-weight: 700;" >Services</h2>
           </div>
           <div class="col">
             <div class="col-8 mb-4">
@@ -413,19 +411,19 @@
         <div class="web-about select-work" id="about">
           <div class="row justify-content-between">
             <div class="col-7">
-              <h2 style="font-size:5.63rem;font-weight: 700;" >About</h2>
+              <h2 class="main-heading" style="font-size:5.63rem;font-weight: 700;" >About</h2>
               <p style="font-size: 1.8rem;">Designer, developer, and product strategist trying to move the needle.
               </p>
             </div>
-            <div class="col-2">
+            <div class="col-lg-2">
             </div>
             <div class="col-2">
-              <img class="img-fluid"  src="https://www.turnwall.com/wp-content/themes/turnwall_theme/images/hire/headshot.png" alt="photo">
+              <img class=""  src="https://www.turnwall.com/wp-content/themes/turnwall_theme/images/hire/headshot.png" alt="photo" width="200px" height="200px">
             </div>
           </div>
           <hr/>
-          <div class="row">
-            <div class="col-2"></div>
+          <div class="row justify-content-start">
+            <div class="col-lg-2"></div>
             <div class="para col-6">
               <p>I’ve been called a ‘pragmatic’ designer.<br>
                 I take that as a compliment.</p>
@@ -436,7 +434,7 @@
                 <p>If this seems like your cup of tea, I'd be pleased to chat about your project needs. My availability is below.</p>
                 <p>-Alex-</p>
               </div>
-            <div class="col-2"></div>
+            <div class="col-lg-2"></div>
             <div class="col-2">
               <p>
                 <a href="mailto:alex@turnwall.com" class="text-decoration-none text-dark" style="border-bottom: 2px solid #159df8">alex@turnwall.com</a>
@@ -476,37 +474,7 @@
       </div>
     </footer>
 
-    <script>
-  
-      let aTabBtn=document.querySelectorAll(".nav-tags");
-      let tagObj={
-        "about-btn":"about",
-        "service-btn":"services"
-      }
-
-      for(tag of aTabBtn)
-      {
-       tag.addEventListener("click",(e)=>{
-          let id=e.target.id;
-          e.preventDefault();
-          if(id in tagObj)
-          {
-            let btn=document.getElementById(tagObj[id]);
-            btn.scrollIntoView();
-          }
-
-       })
-      }  
-      // 
-
-      let nextBtn=document.querySelector(".next");
-      let sliderImg=document.querySelectorAll(".slid-img");
-      nextBtn.addEventListener("click",(e)=>{
-        
-      })
-      
-    </script>
-
+    <script src="./app.js"></script>
     <!--Bootstrap js-->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
