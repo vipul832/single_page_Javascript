@@ -6,6 +6,44 @@ body {
   background-color: #f6f8f8;
 }
 
+.hover-a-tag {
+  color: black;
+  text-decoration: none;
+  background-image: linear-gradient(#159df8 0%, #159df8 100%);
+  background-repeat: no-repeat;
+  background-position: 0 100%;
+  background-size: 100% 0.1em;
+  transition: background-size 0.2s ease;
+}
+
+.hover-a-tag:hover {
+  color: black;
+  background-size: 100% 90%;
+  background-image: linear-gradient(
+    transparentize(#159df8, 0.3) 0%,
+    transparentize(#159df8, 0.3) 100%
+  );
+}
+
+.post-heading {
+  color: black;
+  text-decoration: none;
+  background-image: linear-gradient(#159df8 0%, #159df8 100%);
+  background-repeat: no-repeat;
+  background-position: 0 100%;
+  background-size: 100% 0em;
+  transition: background-size 0.2s ease;
+}
+
+.post-heading:hover {
+  color: black;
+  background-size: 100% 88%;
+  background-image: linear-gradient(
+    transparentize(#159df8, 0.3) 0%,
+    transparentize(#159df8, 0.3) 100%
+  );
+}
+
 .web-heading1 {
   font-size: 7.3rem;
   font-weight: 700;

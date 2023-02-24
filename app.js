@@ -3,6 +3,7 @@ let tagObj = {
   "about-btn": "about",
   "service-btn": "services",
   "images-btn": "image",
+  "get-started": "contact",
 };
 
 for (tag of aTabBtn) {
